@@ -50,10 +50,10 @@ Installation process:
 - More than 8 GB RAM if you plan to use "Copy-To-RAM" option to install
 - AMD GPU that supports RADV Drivers instead of Radeon (Southern Islands and Sea Islands require additional kernel cmdline property); Intel iGPU all the way up to 11th gen Iris Xe (Arc GPUs are not supported at this moment)
 - UEFI-enabled device
-- Disabled secure boot
+- Secure Boot Disabled
 
 **Installation:**
-- Flash the ISO from [releases](https://github.com/bhaiest/holoiso/releases/latest) or [actions](https://nightly.link/theVakhovskeIsTaken/holoiso/workflows/build/stable/holoiso) for NVIDIA GPUs using [BalenaEtcher](https://www.balena.io/etcher/), [Rufus](https://rufus.ie) with DD mode, or by typing `sudo dd if=SteamOS.iso of=/dev/sd(your flash drive) bs=4M status=progress oflag=sync`, or by simply throwing ISO into Ventoy drive
+- Flash the ISO from [releases](https://github.com/bhaiest/holoiso/releases/latest) or [actions](https://nightly.link/theVakhovskeIsTaken/holoiso/workflows/build/stable/holoiso) for NVIDIA GPUs using [BalenaEtcher](https://www.balena.io/etcher/), [Rufus](https://rufus.ie) with DD mode, or by typing `sudo dd if=SteamOS.iso of=/dev/sd(your flash drive) bs=4M status=progress oflag=sync`, or by simply throwing the ISO image into Ventoy partition
 - Boot into ISO
 - Click on "Install SteamOS on this device"
 - Follow on-screen instructions
